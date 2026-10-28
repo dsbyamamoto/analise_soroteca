@@ -27,7 +27,7 @@ st.set_page_config(
 st.sidebar.header("🔴:red[Cinomose]")
 
 # dados
-df = pd.read_csv("dados/dados_tratados/soroteca_tratada.csv")
+df = pd.read_csv("dados/dados_tratados/soroteca_tratada1.csv")
 
 # tratamento dos dados
 df = str_categorico(df)
