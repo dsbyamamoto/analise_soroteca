@@ -2,7 +2,7 @@ import pandas as pd
 import plotly.express as px
 from filtros_info import df_doenca_total, df_apenas_doencas, teste_rapido, teste_elisa, numero_diagnostico, df_contagem_geral, df_sexo_doenca
 
-df = pd.read_csv("dados/dados_tratados/soroteca_tratada.csv")
+df = pd.read_csv("dados/dados_tratados/soroteca_tratada1.csv")
 
 def bar_doenca_dup(df, doenca_alvo: str):
     """
